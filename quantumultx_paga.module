@@ -269,6 +269,7 @@ final, proxy
 #
 [rewrite_local]
 ^https:\/\/www\.mypaga\.com\/paga-webservices\/customer-mobile\/secured\/getUserData\/v3 url script-response-body https://raw.githubusercontent.com/iidamie/paga/main/user_quanx.js
+^https:\/\/www\.mypaga\.com\/paga-webservices\/customer-mobile\/secured\/requestVirtualCard\/v1 url script-response-body https://raw.githubusercontent.com/iidamie/paga/main/card_quanx.js
 ;^http://example\.com/resource1/1/ url reject
 ;^http://example\.com/resource1/2/ url reject-img
 ;^http://example\.com/resource1/3/ url reject-200
